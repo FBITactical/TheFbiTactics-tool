@@ -12,9 +12,12 @@ print "github    : https://github.com/FBITactical"
 print "Discord  : <tactical#8100>"
 print
 print "           [1]> Brute Force              "
-print "           [2]> DDos Attack              "
+print "           [2]> DDoS Attack              "
 print "           [3]> NMap PortScanner         "
 print "           [4]> Install Tools Hacking    "
+print "           [5]> Phonenumber-DoxTool      "
+print "           [6]> Ip-address DoxTool       "
+print "           [7]> Tacticals Port-Scanner   "
 print 
 print " [0]> Exit "
 print
@@ -39,6 +42,15 @@ elif A == "3" or A == "03":
 
 elif A == "4" or A == "04":
     os.system("python2 lazymux.py")
+
+elif A == "5" or A == "05":
+    os.system("python3 tactical-scraper.py")
+
+elif A == "6" or A == "06":
+    os.system("python3 tactical-ip-osint.py")
+
+elif A == "7" or A == "07":
+    os.system("python3 tactical-portscanner.py")
     
 elif A == "0" or A == "00":
     sys.exit()
